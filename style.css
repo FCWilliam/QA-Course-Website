@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+header{
+    background-color: #1C2936;
+}
+
+body{
+    background-color: #000000;
+    margin: 0;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 3;
+    color: aliceblue
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 5;
+    color: aliceblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 35px;
+  height: 500px; /* Should be removed. Only for demonstration */
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+/* Clear floats after the columns */
+.row{
+    /* background-image: url("./images/background1.jpg"); */
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img{
+    padding-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button{
+    margin-top: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 19px;
+    background-color: #1E3143;
+    border-color: #1A2B3A;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  height: 75px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* height: 75px; */
+  vertical-align: middle;
+}
+
+.topnav a:hover {
+  background-color: #203B53;
+  color: #ffffff;
+  height: 75px;
+}
+
+.topnav a.active {
+  background-color: #274A69;
+  color: white;
+  height: 75px;
+}
+
+.logo{
+    font-family: 'Staatliches', cursive;
+    font-size: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+}
