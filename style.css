@@ -36,7 +36,7 @@ h3{
 }
 p{
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 5;
     color: aliceblue;
 }
@@ -45,12 +45,11 @@ p{
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
 .column {
   float: left;
   width: 50%;
   padding: 35px;
-  height: 500px; /* Should be removed. Only for demonstration */
+  height: 500px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
@@ -67,6 +66,8 @@ img{
     margin-right: 20px;
 }
 
+
+
 button{
     margin-top: 5px;
     padding-top: 8px;
@@ -80,9 +81,17 @@ button{
     font-family: 'Raleway', sans-serif;
 }
 
+button:hover{
+  
+}
+.row{
+  background-color:#160816;
+}
 .topnav {
   overflow: hidden;
   background-color: #7F6E64;
+  padding-left:px;
+  padding-top: 10px;
 }
 
 .topnav a {
@@ -92,9 +101,10 @@ button{
   padding-top: 15px;
   padding-bottom: 10px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 22px;
   font-family: 'Raleway', sans-serif;
   padding: 15px;
+
   padding-left: 25px;
   padding-right: 25px;
   height: 75px;
@@ -168,3 +178,5 @@ button{
 .hero-text button:hover {
   background-color: #160816;
   color: white;
+}
+  
