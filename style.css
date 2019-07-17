@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
 header{
-    background-color: #1C2936;
 }
 
 html{
@@ -54,38 +53,44 @@ p{
   padding-bottom: 25px;
 }
 
-.row:after {
+.row1:after {
   content: "";
   display: table;
   clear: both;
 }
 
-img{
-    padding-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+.row1 img{
+padding-left: 150px;
 }
 
 
 
-button{
-    margin-top: 5px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 19px;
-    background-color: #1E3143;
-    border-color: #1A2B3A;
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
+.row1 button{
+border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 10px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 20px;
 }
 
-button:hover{
+.row1 button:hover {
+  background-color: #160816;
+  color: white;
+}
   
-}
-.row{
+
+.row1{
   background-color:#160816;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left:35px;
+  padding-right: 25px;
 }
 .topnav {
   overflow: hidden;
