@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
-header{
-}
 
 html{
   font-family: 'Raleway', sans-serif;
@@ -123,8 +121,45 @@ border: none;
   
 }
 
-.topnav a.active {
-  background-color: #7F6E64;
+.topnav2 a.active {
+  background-color: #20181D;
+  color: #870533;
+  height: 75px;
+}
+
+.topnav2 {
+  overflow: hidden;
+  background-color: #20181D;
+  padding-left:px;
+  padding-top: 10px;
+}
+
+.topnav2 a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 22px;
+  font-family: 'Raleway', sans-serif;
+  padding: 15px;
+
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 75px;
+  vertical-align: middle;
+}
+
+.topnav2 a:hover {
+  background-color: #20181D;
+  color: #870533;
+  height: 75px;
+  
+}
+
+.topnav2 a.active {
+  background-color: #20181D;
   color: #870533;
   height: 75px;
 }
