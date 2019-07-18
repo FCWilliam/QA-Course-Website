@@ -86,7 +86,7 @@ border: none;
 .row1{
   background-color:#160816;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 250px;
   padding-left:35px;
   padding-right: 25px;
 }
@@ -220,3 +220,6 @@ border: none;
   color: white;
 }
   
+.drdre{
+  padding-top: 50px;
+}
